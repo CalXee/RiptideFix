@@ -5,6 +5,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class RiptideFixClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        if (FabricLoader.getInstance().isModLoaded("fabric")) {
 
+        }
     }
 }
